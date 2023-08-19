@@ -11,8 +11,3 @@ func StringToDate(value string) time.Time {
 	return convertedTime
 
 }
-
-/*
-currentTime := time.Now().Format(layout)
-SalaryReceived, _ := time.Parse(layout, currentTime)
-*/
